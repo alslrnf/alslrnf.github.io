@@ -1,0 +1,11 @@
+#navigation>div {
+    display: inline-block;
+}
+#left_box_ul {
+    display: flex;
+}
+#left_box_ul>li {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}

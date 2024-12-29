@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test page</title>
+    <!-- common.css는 이 프로젝트의 모든 페이지에 
+        공통으로 적용할 css를 정의한다.-->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- index.css는 현재 있는 이 index.html만의 
+    css를 정의한다.-->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- index.css를 아래에 정의함으로써, 공통 css보다
+        높은 우선순위를 가지게 된다. -->
+</head>
+<body>
+    <div id="container">
+        <div class="nav-container fixed" >
+            <nav id="navigation">
+                <div class="nav-let-box">
+                    <ul id="left_box_ul">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="nav-mid-box">b</div>
+                <div class="nav-right-box">c</div>
+            </nav>
+        </div>
+        <header id="header"></header>
+        <div id="content"></div>
+        <footer id="footer"></footer>
+    </div>
+</body>
+</html>
